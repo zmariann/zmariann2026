@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { ButtonLink } from "../ui/typography/button-link";
-import { Text } from "../ui/typography/text";
-import LanguageToggle from "../ui/typography/language-toggle";
-import { Heading } from "../ui/typography/heading";
+import { ButtonLink } from "../ui/typography/ButtonLink";
+import { Text } from "../ui/typography/Text";
+import LanguageToggle from "../ui/LanguageToggle";
+import { Heading } from "../ui/typography/Heading";
 
 export function Footer() {
   return (

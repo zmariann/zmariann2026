@@ -1,7 +1,7 @@
 import { ArrowDown } from "lucide-react";
-import { ButtonLink } from "./components/ui/typography/button-link";
-import { Display } from "./components/ui/typography/display";
-import { Heading } from "./components/ui/typography/heading";
+import { ButtonLink } from "./components/ui/typography/ButtonLink";
+import { Display } from "./components/ui/typography/Display";
+import { Heading } from "./components/ui/typography/Heading";
 
 export default function Home() {
   return (

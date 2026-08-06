@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { Footer } from "./components/layout/footer";
+import { Footer } from "./components/layout/Footer";
 
 export const neueRegrade = localFont({
   src: "./fonts/neue_regrade_variable.ttf",
