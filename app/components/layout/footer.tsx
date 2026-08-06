@@ -22,26 +22,32 @@ export function Footer() {
 
           <nav
             aria-label="Social links"
-            className=" text-lg leading-relaxed font-normal tracking-wider"
+            className="text-lg leading-relaxed font-normal tracking-wider"
           >
-            <ul className="flex items-center gap-2">
+            <ul className="flex flex-col items-center gap-2 md:flex-row md:gap-2">
               <li>
                 <Link href="https://zamarka.hu">Zamarka Studio</Link>
               </li>
 
-              <li aria-hidden="true">|</li>
+              <li aria-hidden="true" className="hidden md:block">
+                |
+              </li>
 
               <li>
                 <Link href="https://linkedin.com">LinkedIn</Link>
               </li>
 
-              <li aria-hidden="true">|</li>
+              <li aria-hidden="true" className="hidden md:block">
+                |
+              </li>
 
               <li>
                 <Link href="https://instagram.com">Instagram</Link>
               </li>
 
-              <li aria-hidden="true">|</li>
+              <li aria-hidden="true" className="hidden md:block">
+                |
+              </li>
 
               <li>
                 <Link href="https://behance.net">Behance</Link>
@@ -58,10 +64,17 @@ export function Footer() {
           </p>
         </Link>
 
-        <p className="text-sm leading-relaxed tracking-widest">
-          © {new Date().getFullYear()} | Mariann Zászlós Portfolio |
-          zmariann.com
-        </p>
+        <div className="flex flex-col items-center gap-1 text-sm leading-relaxed tracking-widest md:flex-row md:gap-2">
+          <span>© {new Date().getFullYear()}</span>
+
+          <span className="hidden md:block">|</span>
+
+          <span>Mariann Zászlós Portfolio</span>
+
+          <span className="hidden md:block">|</span>
+
+          <span>zmariann.com</span>
+        </div>
       </div>
     </footer>
   );
