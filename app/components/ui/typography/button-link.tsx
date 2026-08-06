@@ -56,7 +56,6 @@ export function ButtonLink({
           duration-300
           ease-[cubic-bezier(0.34,1.56,0.64,1)]
           group-hover:translate-x-2
-          group-active:translate-x-2
         "
       />
     </Link>
