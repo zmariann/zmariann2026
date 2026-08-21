@@ -2,6 +2,7 @@ import { ArrowDown } from "lucide-react";
 import { ButtonLink } from "./components/ui/typography/ButtonLink";
 import { Display } from "./components/ui/typography/Display";
 import { Heading } from "./components/ui/typography/Heading";
+import { HeroVideo } from "./components/sections/HeroVideo";
 
 export default function Home() {
   return (
@@ -30,7 +31,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="min-h-screen lg:flex-1 bg-mist-400"></section>
+      <HeroVideo />
     </main>
+
+
   );
 }
