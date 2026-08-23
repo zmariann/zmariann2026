@@ -7,7 +7,7 @@ import { HeroVideo } from "./HeroVideo";
 export function Hero() {
     return (
         <section className="flex min-h-screen flex-col lg:flex-row">
-            <section className="flex min-h-screen flex-col items-center justify-center py-5 text-carrot lg:min-h-0 lg:flex-1">
+            <div className="flex min-h-screen flex-col items-center justify-center py-5 text-carrot lg:min-h-0 lg:flex-1">
                 <div className="flex flex-col gap-4">
                     <div className="pb-1">
                         <Display>Mariann Zászlós</Display>
@@ -34,7 +34,7 @@ export function Hero() {
                         strokeWidth={1.5}
                     />
                 </div>
-            </section>
+            </div>
 
             <HeroVideo />
         </section>
