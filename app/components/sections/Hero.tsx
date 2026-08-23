@@ -29,7 +29,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="py-10 lg:hidden">
+        <div className="py-10">
           <ArrowDown
             className="h-8 w-8 animate-bounce text-carrot"
             strokeWidth={1.5}
