@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { Footer } from "./components/layout/Footer";
+import { LenisProvider } from "./providers/LenisProvider";
 
 export const neueRegrade = localFont({
   src: "./fonts/neue_regrade_variable.ttf",
@@ -22,8 +23,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${neueRegrade.variable} antialiased`}>
-      <body>{children}
-         <Footer />
+      <body>
+        <LenisProvider>
+          {children}
+          <Footer />
+        </LenisProvider>
+
       </body>
     </html>
   );

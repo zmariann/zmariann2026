@@ -2,10 +2,10 @@ export function HeroVideo() {
   return (
     <section
       aria-label="Featured work"
-      className="flex min-h-screen flex-1 items-center justify-center overflow-hidden"
+      className="flex flex-1 items-center justify-center overflow-hidden"
     >
       <video
-        className="h-auto max-h-screen max-w-full object-contain"
+        className="block w-full max-w-full object-contain lg:h-auto lg:max-h-screen lg:w-auto"
         autoPlay
         muted
         loop
