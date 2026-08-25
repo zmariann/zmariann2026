@@ -25,13 +25,6 @@ export function Footer() {
             className="text-lg leading-relaxed font-normal tracking-wider"
           >
             <ul className="flex flex-col items-center gap-2 md:flex-row md:gap-2">
-              <li>
-                <Link href="https://zamarka.hu">Zamarka Studio</Link>
-              </li>
-
-              <li aria-hidden="true" className="hidden md:block">
-                |
-              </li>
 
               <li>
                 <Link href="https://linkedin.com">LinkedIn</Link>
