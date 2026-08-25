@@ -15,11 +15,7 @@ const colors = {
   carrot: "text-carrot",
 };
 
-export function Heading({
-  level = 2,
-  color = "ink",
-  children,
-}: HeadingProps) {
+export function Heading({ level = 2, color = "ink", children }: HeadingProps) {
   const Component = `h${level}` as "h1" | "h2" | "h3";
 
   return (
