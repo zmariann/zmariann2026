@@ -9,20 +9,11 @@ type FeaturedItemProps = {
   children: React.ReactNode;
 };
 
-function FeaturedItem({
-  image,
-  alt,
-  title,
-  children,
-}: FeaturedItemProps) {
+function FeaturedItem({ image, alt, title, children }: FeaturedItemProps) {
   return (
     <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-24">
       <div>
-        <img
-          src={image}
-          alt={alt}
-          className="w-full h-auto"
-        />
+        <img src={image} alt={alt} className="w-full h-auto" />
       </div>
 
       <div className="flex items-center">
@@ -43,16 +34,17 @@ export function FeaturedProjects() {
       <Heading level={1} color="carrot">
         In Practice
       </Heading>
+      <Text weight="medium" className="pt-10 text-center">Selected examples of my work across photography and&nbsp;video.</Text>
 
-      <div className="flex flex-col gap-25 mt-20">
+      <div className="flex flex-col gap-25 mt-15">
         <FeaturedItem
           image="/imgs/landing/landing-01.jpg"
           alt="Exhibition installation at MOCA Taipei"
-          title="Short-form Video Content"
+          title="Artist Interviews & Short-form Video Content"
         >
           <Text weight="medium">
-            Produced artist interviews and short-form video content for
-            MOCA Taipei, commissioned by the Ludwig Museum.
+            Produced artist interviews and short-form video content for MOCA
+            Taipei, commissioned by the Ludwig Museum.
           </Text>
         </FeaturedItem>
 
@@ -62,23 +54,18 @@ export function FeaturedProjects() {
           title="Artwork Documentation"
         >
           <Text weight="medium">
-            High-resolution artwork documentation created as part of a
-            studio team, following archival-grade imaging&nbsp;practices.
+            High-resolution artwork documentation created as part of a studio
+            team, following archival-grade imaging&nbsp;practices.
           </Text>
         </FeaturedItem>
 
         <FeaturedItem
           image="/imgs/landing/landing-03.jpg"
           alt="CTRL+ALT+CRIT Magazine"
-          title="Kind Words"
+          title="Documentary Photography"
         >
           <Text weight="medium" italic>
-            “Her images are shaped by presence, trust and genuine
-            human&nbsp;connection.”
-          </Text>
-
-          <Text weight="medium">
-            — Beáta Sosity | Co-founder of CTRL+ALT+CRIT&nbsp;Magazine
+            Documentary photography for CTRL+ALT+CRIP&nbsp;Magazine.
           </Text>
         </FeaturedItem>
       </div>
