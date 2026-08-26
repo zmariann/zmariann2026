@@ -48,7 +48,7 @@ export function FeaturedProjects() {
         <FeaturedItem
           image="/imgs/landing/landing-01.jpg"
           alt="Exhibition installation at MOCA Taipei"
-          title="Artist Interviews & Short-form Video"
+          title="Short-form Video Content"
         >
           <Text weight="medium">
             Produced artist interviews and short-form video content for
