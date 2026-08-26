@@ -8,7 +8,7 @@ export function Collaborations() {
       <div className="w-fit max-w-full">
         <Heading level={1} color="carrot">
           Selected <br />
-          collaborations
+          Collaborations
         </Heading>
 
         <TextList>
