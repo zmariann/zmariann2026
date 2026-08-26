@@ -2,6 +2,7 @@ import { HTMLAttributes } from "react";
 
 type TextProps = HTMLAttributes<HTMLParagraphElement> & {
   weight?: "regular" | "medium";
+  italic?: boolean;
 };
 
 const variants = {
@@ -11,6 +12,7 @@ const variants = {
 
 export function Text({
   weight = "regular",
+  italic = false,
   className = "",
   ...props
 }: TextProps) {
@@ -21,6 +23,7 @@ export function Text({
         leading-relaxed
         tracking-wider
         ${variants[weight]}
+        ${italic ? "italic" : ""}
         ${className}
       `}
       {...props}
