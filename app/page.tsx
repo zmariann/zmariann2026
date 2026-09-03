@@ -4,6 +4,7 @@ import { Section } from "./components/layout/Section";
 import { FeaturedProjects } from "./components/sections/FeaturedProjects";
 import { Container } from "./components/layout/Container";
 import { Testimonials } from "./components/sections/Testimonials";
+import { Intro } from "./components/sections/Intro";
 
 export default function Home() {
   return (
@@ -11,6 +12,14 @@ export default function Home() {
       <Hero />
 
       <Collaborations />
+
+
+      <Section>
+        <Container>
+          <Intro />
+        </Container>
+      </Section>
+
 
       <Section>
         <Container>
