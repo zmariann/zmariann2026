@@ -11,7 +11,7 @@ const variants = {
 };
 
 export function Text({
-  weight = "regular",
+  weight = "medium",
   italic = false,
   className = "",
   ...props
