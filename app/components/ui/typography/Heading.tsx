@@ -5,7 +5,7 @@ type HeadingProps = {
 };
 
 const styles = {
-  1: "text-5xl sm:text-6xl lg:text-8xl leading-none tracking-tight",
+  1: "text-5xl sm:text-6xl lg:text-8xl leading-[1.1] tracking-tight",
   2: "text-xl leading-none tracking-wide font-semibold",
   3: "text-xl leading-wide font-semibold",
 };
