@@ -64,7 +64,7 @@ export function FeaturedProjects() {
           alt="CTRL+ALT+CRIT Magazine"
           title="Documentary Photography"
         >
-          <Text weight="medium" italic>
+          <Text weight="medium">
             Documentary photography for CTRL+ALT+CRIP&nbsp;Magazine.
           </Text>
         </FeaturedItem>

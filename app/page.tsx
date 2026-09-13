@@ -13,13 +13,11 @@ export default function Home() {
 
       <Collaborations />
 
-
       <Section>
         <Container>
           <Intro />
         </Container>
       </Section>
-
 
       <Section>
         <Container>
