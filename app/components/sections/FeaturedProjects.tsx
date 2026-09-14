@@ -1,6 +1,6 @@
 import { Heading } from "../ui/typography/Heading";
 import { Text } from "../ui/typography/Text";
-import { TextList } from "../ui/typography/TextList";
+import { TextList } from "../ui/TextList";
 
 type FeaturedItemProps = {
   image: string;
@@ -11,7 +11,7 @@ type FeaturedItemProps = {
 
 function FeaturedItem({ image, alt, title, children }: FeaturedItemProps) {
   return (
-    <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-24">
+    <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-24">
       <div>
         <img src={image} alt={alt} className="w-full h-auto" />
       </div>

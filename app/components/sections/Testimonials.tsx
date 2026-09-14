@@ -1,4 +1,4 @@
-import { TextList } from "../ui/typography/TextList";
+import { TextList } from "../ui/TextList";
 import { Text } from "../ui/typography/Text";
 import { Heading } from "../ui/typography/Heading";
 
@@ -23,7 +23,7 @@ export function Testimonials() {
           <Text weight="medium" italic className="sm:text-center">
             “Mariann and I have been working together for almost two years. She
             fully manages the company’s social media video content across
-            multiple platforms, taking a huge workload off our shoulders.”
+            multiple platforms, taking a huge workload off our&nbsp;shoulders.”
           </Text>
           <Text weight="medium" className="text-right sm:text-center">
             — Ildikó Varga | Owner of Fürge Füge Kft.

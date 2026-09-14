@@ -1,6 +1,6 @@
 import { Heading } from "../ui/typography/Heading";
 import { Text } from "../ui/typography/Text";
-import { TextList } from "../ui/typography/TextList";
+import { TextList } from "../ui/TextList";
 
 export function Collaborations() {
   return (
