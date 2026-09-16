@@ -20,14 +20,6 @@ export function Intro() {
           <Text className="text-center">és</Text>
           <Text className="text-center">vizuálisan is megnyerő.</Text>
         </div>
-        <Text>
-          Munkáimat a képzőművészet iránti érdeklődésem és a múzeumi közegben
-          megszerzett munkatapasztalat határozza meg.
-        </Text>
-        <Text>
-          Bármit is jelentsen az előbbi mondat, lentebb kifejtem érthetően és bővebben,
-          mire&nbsp;számíthatsz.
-        </Text>
       </div>
 
       <div className="flex h-screen items-center justify-center">
