@@ -1,6 +1,8 @@
 import { Heading } from "../ui/typography/Heading";
 import { Text } from "../ui/typography/Text";
 import { TextList } from "../ui/TextList";
+import { Dot } from "lucide-react";
+import { DotList } from "../ui/DotList";
 
 type FeaturedItemProps = {
   image: string;
@@ -11,9 +13,9 @@ type FeaturedItemProps = {
 
 function FeaturedItem({ image, alt, title, children }: FeaturedItemProps) {
   return (
-    <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-24">
-      <div>
-        <img src={image} alt={alt} className="w-full h-auto" />
+    <div className="grid grid-cols-1 gap-3 lg:grid-cols-2 lg:gap-15">
+      <div className="flex items-center">
+        <img src={image} alt={alt} className="h-auto w-full" />
       </div>
 
       <div className="flex items-center">
@@ -32,30 +34,36 @@ export function FeaturedProjects() {
   return (
     <section className="flex flex-col items-center justify-center">
       <Heading level={1} color="carrot">
-        In Practice
+        Kiemelt munkáim
       </Heading>
-      <Text weight="medium" className="pt-10 text-center">Selected examples of my work across photography and&nbsp;video.</Text>
 
       <div className="flex flex-col gap-25 mt-15">
         <FeaturedItem
           image="/imgs/landing/landing-01.jpg"
           alt="Exhibition installation at MOCA Taipei"
-          title="Artist Interviews & Short-form Video Content"
+          title="Interjúk és rövid formátumú videók"
         >
-          <Text weight="medium">
-            Produced artist interviews and short-form video content for MOCA
-            Taipei, commissioned by the Ludwig Museum.
+          <Text>
+            Visszafogott hangulatú, effektmentes, letisztult stílusú&nbsp;videók.
           </Text>
+          <Text>
+            Ezeknek a célja elsősorban nem a viralitás, hanem hogy bemutassák a
+            szolgáltatásodat. Egy felvételből többféle verzió
+            készülhet: például reels, közösségi médiára és a landing oldaladra
+            egy&nbsp;bemutatkozó.
+          </Text>
+
+          <Text>Megrendelő | Ludwig Múzeum, a MOCA Taipei számára.</Text>
         </FeaturedItem>
 
         <FeaturedItem
           image="/imgs/landing/landing-02.jpg"
           alt="Artwork Documentation"
-          title="Artwork Documentation"
+          title="Műtárgy digitalizálás"
         >
           <Text weight="medium">
-            High-resolution artwork documentation created as part of a studio
-            team, following archival-grade imaging&nbsp;practices.
+            Nagy felbontású műtárgyfotók készítése egy csapat
+            részeként, felszerelt stúdióban, archiválási&nbsp;minőségben.
           </Text>
         </FeaturedItem>
 

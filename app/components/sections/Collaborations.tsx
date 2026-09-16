@@ -5,17 +5,15 @@ import { TextList } from "../ui/TextList";
 export function Collaborations() {
   return (
     <section className="flex flex-col items-center justify-center sm:min-h-screen pt-24 sm:pt-0">
-      <div className="w-fit max-w-full">
-        <Heading level={1} color="carrot">
-          Selected <br />
-          Collaborations
-        </Heading>
-
+      <Heading level={1} color="carrot">
+        Együttműködéseim
+      </Heading>
+      <div className="w-fit max-w-full pt-6">
         <TextList>
           <Text weight="medium">
-            <span>Ludwig Museum</span>
+            <span>Ludwig Múzeum</span>
             <span className="hidden sm:inline"> | </span>
-            <span className="block sm:inline">Museum of Contemporary Art</span>
+            <span className="block sm:inline">Kortárs Művészeti Múzeum</span>
           </Text>
 
           <Text weight="medium">
@@ -26,9 +24,9 @@ export function Collaborations() {
             </span>
           </Text>
 
-          <Text weight="medium">Museum of Fine Arts, Budapest</Text>
+          <Text weight="medium">Szépművészeti Múzeum, Budapest</Text>
 
-          <Text weight="medium">Ctrl+Alt+Crip Magazine</Text>
+          <Text weight="medium">Ctrl+Alt+Crip Magazin</Text>
         </TextList>
       </div>
     </section>

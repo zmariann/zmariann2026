@@ -49,8 +49,6 @@ export function Footer() {
           </nav>
         </div>
 
-        <LanguageToggle />
-
         <Link href="/privacy">
           <p className="text-sm leading-relaxed tracking-widest">
             Adatvédelmi irányelvek
