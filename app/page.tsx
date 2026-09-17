@@ -12,13 +12,17 @@ export default function Home() {
     <main>
       <Hero />
 
-      <Collaborations />
-
       <Section>
         <Container>
           <Intro />
         </Container>
       </Section>
+
+      <Collaborations />
+
+      <div className="flex h-screen items-center justify-center">
+        Intro video
+      </div>
 
       <Section>
         <Container>

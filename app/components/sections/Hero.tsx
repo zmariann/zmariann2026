@@ -11,7 +11,7 @@ export function Hero() {
                 <div className="flex flex-col gap-4">
                     <div className="pb-1">
                         <Display>Zászlós Mariann</Display>
-                        <Heading level={2}>Fotográfus és videós</Heading>
+                        <Heading level={2}>Fotós | videós</Heading>
                     </div>
 
                     <ButtonLink href="#contact" variant="carrot">
@@ -19,7 +19,7 @@ export function Hero() {
                     </ButtonLink>
 
                     <ButtonLink href="#projects">
-                        Munkáim
+                        Projektek
                     </ButtonLink>
 
                     <div className="flex justify-between pt-1">

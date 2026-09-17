@@ -5,10 +5,13 @@ import { TextList } from "../ui/TextList";
 export function Collaborations() {
   return (
     <section className="flex flex-col items-center justify-center sm:min-h-screen pt-24 sm:pt-0">
-      <Heading level={1} color="carrot">
-        Együttműködéseim
+      <Heading level={1} color="carrot" className="hidden sm:block">
+        Együttműködések
       </Heading>
       <div className="w-fit max-w-full pt-6">
+        <Heading level={1} color="carrot" className="block sm:hidden">
+          Együttműködések
+        </Heading>
         <TextList>
           <Text weight="medium">
             <span>Ludwig Múzeum</span>

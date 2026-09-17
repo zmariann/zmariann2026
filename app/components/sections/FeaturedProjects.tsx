@@ -1,8 +1,6 @@
 import { Heading } from "../ui/typography/Heading";
 import { Text } from "../ui/typography/Text";
 import { TextList } from "../ui/TextList";
-import { Dot } from "lucide-react";
-import { DotList } from "../ui/DotList";
 
 type FeaturedItemProps = {
   image: string;
@@ -19,7 +17,7 @@ function FeaturedItem({ image, alt, title, children }: FeaturedItemProps) {
       </div>
 
       <div className="flex items-center">
-        <div className="max-w-lg">
+        <div>
           <TextList>
             <Heading>{title}</Heading>
             {children}
@@ -34,46 +32,72 @@ export function FeaturedProjects() {
   return (
     <section className="flex flex-col items-center justify-center">
       <Heading level={1} color="carrot">
-        Kiemelt munkáim
+        Ötletek számodra
       </Heading>
+
+      <Text className="text-center">
+        Itt olyan projekekről olvashatsz, amik inspirációként szolgálhatnak a
+        saját&nbsp;vállalkozásodhoz.
+      </Text>
 
       <div className="flex flex-col gap-25 mt-15">
         <FeaturedItem
           image="/imgs/landing/landing-01.jpg"
           alt="Exhibition installation at MOCA Taipei"
-          title="Interjúk és rövid formátumú videók"
+          title="Rövid formátumú videók a Ludwig Múzeum megbízásából, a MOCA Taipei számára"
         >
           <Text>
-            Visszafogott hangulatú, effektmentes, letisztult stílusú&nbsp;videók.
+            Visszafogott, effektek nélküli, letisztult stílusú&nbsp;videók.
           </Text>
+
           <Text>
-            Ezeknek a célja elsősorban nem a viralitás, hanem hogy bemutassák a
-            szolgáltatásodat. Egy felvételből többféle verzió
-            készülhet: például reels, közösségi médiára és a landing oldaladra
+            Ez a projekt jó példa arra, milyen mikor egy videónak a célja, nem a
+            viralitás, hanem hogy vonzó módon mutassa be a szolgáltatásodat az
+            érdeklődőidnek. Egy felvételből többféle verzió készülhet: például
+            reels, közösségi médiára és a landing oldaladra
             egy&nbsp;bemutatkozó.
           </Text>
 
-          <Text>Megrendelő | Ludwig Múzeum, a MOCA Taipei számára.</Text>
+          <Text>
+            Nem csak kulturális intézmények szeretik ezt a típusú megoldást. A
+            szépségipar, építészirodák, oktatók és tanácsadók kedvelt
+            kommunikációs formája&nbsp;ez.
+          </Text>
         </FeaturedItem>
 
         <FeaturedItem
           image="/imgs/landing/landing-02.jpg"
           alt="Artwork Documentation"
-          title="Műtárgy digitalizálás"
+          title="Műtárgy digitalizálás egy csapat részeként, kiválóan felszerelt stúdióban"
         >
-          <Text weight="medium">
-            Nagy felbontású műtárgyfotók készítése egy csapat
-            részeként, felszerelt stúdióban, archiválási&nbsp;minőségben.
+          <Text>
+            Egységes kinézetű, a tárgyat részletesen bemutató&nbsp;fotók.
+          </Text>
+
+          <Text>
+            A stúdióban történő tárgyfotózás akkor jöhet szóba, ha fizikai
+            terméked van. Sokféle stílusú világítás és hangulat közül
+            dönthetünk, hogy mi illik leginkább a termékedhez. A megszokott
+            webshopos fotók mellett jól jöhet néhány kreatívabb kép is
+            weboldalra,&nbsp;hirdetéshez.
           </Text>
         </FeaturedItem>
 
         <FeaturedItem
           image="/imgs/landing/landing-03.jpg"
           alt="CTRL+ALT+CRIT Magazine"
-          title="Documentary Photography"
+          title="Dokumentarista fotók a CTRL+ALT+CRIP Magazin számára"
         >
           <Text weight="medium">
-            Documentary photography for CTRL+ALT+CRIP&nbsp;Magazine.
+            Rendezvény dokumentációnál, portrénál vagy a vállalkozásodat
+            bemutató hangulatképeknél is passzolhat ez a stílus hozzád.
+            Karakteres személyes márkák, kreatív emberek, alkotók kedvelt
+            stílusa&nbsp;ez.
+          </Text>
+          <Text weight="medium">
+            Ha van egy ügyed, amivel kiállsz emberek alapvető jogai mellett és
+            el tudnál képzelni egy együttműködést, akkor bátran írj olyan
+            esetben is, ha a büdzsé miatt esetleg kétségeid&nbsp;lennének.
           </Text>
         </FeaturedItem>
       </div>
