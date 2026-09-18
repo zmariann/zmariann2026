@@ -7,8 +7,8 @@ type HeadingProps = {
 
 const styles = {
   1: "text-4xl sm:text-6xl lg:text-8xl leading-[1.3] tracking-tight",
-  2: "text-xl leading-[1.3] tracking-wide font-semibold",
-  3: "text-xl leading-wide font-semibold",
+  2: "text-xl leading-[1.3] tracking-wider font-semibold",
+  3: "text-4xl leading-[1.3] leading-wide font-semibold uppercase",
 };
 
 const colors = {
