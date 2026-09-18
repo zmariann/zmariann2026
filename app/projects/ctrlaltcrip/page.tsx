@@ -18,7 +18,7 @@ export default function CtrlAltCrip() {
             />
 
             <div className="flex items-center justify-center">
-              <div className="sm:max-w-lg">
+              <div className="sm:max-w-lg flex flex-col gap-3">
                 <Text>
                   „A CTRL+ALT+CRIP egy nyomtatott és digitális&nbsp;magazin.
                 </Text>
@@ -70,7 +70,7 @@ export default function CtrlAltCrip() {
             </div>
 
             <div className="flex items-center justify-center">
-              <div className="sm:max-w-xl">
+              <div className="sm:max-w-xl flex flex-col gap-3">
                 {" "}
                 <Text>
                   „A vele való munka során az volt a legerősebb, hogy nem
