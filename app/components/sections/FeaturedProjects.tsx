@@ -32,12 +32,13 @@ export function FeaturedProjects() {
   return (
     <section className="flex flex-col items-center justify-center">
       <Heading level={1} color="carrot">
-        Ötletek számodra
+        Megvalósult projektek
       </Heading>
 
       <Text className="text-center">
-        Itt olyan projekekről olvashatsz, amik inspirációként szolgálhatnak a
-        saját&nbsp;vállalkozásodhoz.
+        Itt a munkáimat ismerheted meg, amik ugyanakkor inspirációként
+        szolgálhatnak a saját vállalkozásodhoz, elképzeléseidhez egy
+        együttműködés&nbsp;során.
       </Text>
 
       <div className="flex flex-col gap-25 mt-15">
@@ -88,12 +89,6 @@ export function FeaturedProjects() {
           alt="CTRL+ALT+CRIT Magazine"
           title="Dokumentarista fotók a CTRL+ALT+CRIP Magazin számára"
         >
-          <Text weight="medium">
-            Rendezvény dokumentációnál, portrénál vagy a vállalkozásodat
-            bemutató hangulatképeknél is passzolhat ez a stílus hozzád.
-            Karakteres személyes márkák, kreatív emberek, alkotók kedvelt
-            stílusa&nbsp;ez.
-          </Text>
           <Text weight="medium">
             Ha van egy ügyed, amivel kiállsz emberek alapvető jogai mellett és
             el tudnál képzelni egy együttműködést, akkor bátran írj olyan

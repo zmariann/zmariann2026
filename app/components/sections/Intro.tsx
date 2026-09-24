@@ -1,21 +1,33 @@
+import { TextList } from "../ui/TextList";
 import { Heading } from "../ui/typography/Heading";
 import { Text } from "../ui/typography/Text";
 
 export function Intro() {
   return (
-    <section className="flex flex-col items-center justify-center gap-5 sm:text-center">
+    <section className="flex flex-col sm:items-center items-start justify-center sm:text-center pt-40">
       <Heading level={1} color="carrot">
-        Ha éppen a vállalkozásodhoz keresel fotóst vagy&nbsp;videóst,
+        Úgy tűnik éppen fotóst vagy videóst&nbsp;keresel,
       </Heading>
-
-      <div className="sm:max-w-3xl">
+      <Text>és az egyik munkám érdekes lehet számodra.</Text>
+      <Text>Négy ok valamelyike miatt lehetsz itt:</Text>
+      <TextList>
         <Text>
-          akkor jó helyen jársz. A célom az, hogy olyan képeket és videókat
-          készítsek, amik az érdeklődőid és vásárlóid számára releváns
-          témájúak és vizuálisan is rendben&nbsp;vannak.
+          Vállalkozó vagy és eladni szeretnél, ezért van szükséged vizuális
+          tartalomra.{" "}
         </Text>
-      </div>
-
+        <Text>
+          A kulturális területen szerzett tapasztalatomra,
+          látásmódomra van szükséged.{" "}
+        </Text>
+        <Text>
+          Valamilyen társadalmi ügy támogatásához keresel szakembert, aki
+          vizuális tartalommal segíti a projekted megvalósítását.{" "}
+        </Text>
+        <Text>
+          Illetve ezeknek valamilyen kombinációja az, ami hasznos lehet
+          számodra.
+        </Text>
+      </TextList>
     </section>
   );
 }
