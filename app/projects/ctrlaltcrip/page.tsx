@@ -117,7 +117,7 @@ export default function CtrlAltCrip() {
             />
 
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-center gap-10">
-              <div className="max-w-9/11 md:max-w-3/4 md:grid md:grid-cols-2 flex flex-col sm:gap-10">
+              <div className="md:max-w-9/11 md:grid md:grid-cols-2 flex flex-col sm:gap-10">
                 <div className="flex justify-center items-center">
                   <div className="sm:max-w-xl md:max-w-full">
                     {" "}
