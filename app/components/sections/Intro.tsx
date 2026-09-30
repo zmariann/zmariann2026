@@ -6,13 +6,15 @@ import { IconTextList } from "@/app/components/ui/IconTextList";
 
 export function Intro() {
   return (
-    <section className="flex flex-col sm:items-center items-start justify-center sm:text-center">
-      <Heading level={1} color="carrot">
+    <section className="flex flex-col sm:items-center justify-center">
+      <Heading level={1} color="carrot" className="text-center">
         Úgy tűnik éppen fotóst vagy videóst&nbsp;keresel,
       </Heading>
 
-      <Text>és az egyik munkám érdekes lehet&nbsp;számodra.</Text>
-      <Text className="pb-6">Ezek miatt lehetsz&nbsp;itt:</Text>
+      <Text className="text-center">
+        és az egyik munkám érdekes lehet&nbsp;számodra.
+      </Text>
+      <Text className="text-center pb-6">Ezek miatt lehetsz&nbsp;itt:</Text>
 
       <IconTextList
         items={[
@@ -48,12 +50,14 @@ export function Intro() {
           },
         ]}
       />
-      <TextList className="mt-6">
+      <TextList className="mt-6 sm:text-center">
         <Text>
           Bárki is vagy a kulturális területen szerzett tapasztalatom,
           látásmódom valószínűleg jól jön&nbsp;számodra.
         </Text>
-        <Text>Lássuk, mit is jelent az előbbi mondat a&nbsp;gyakorlatban...</Text>
+        <Text>
+          Lássuk, mit is jelent az előbbi mondat a&nbsp;gyakorlatban...
+        </Text>
       </TextList>
     </section>
   );
