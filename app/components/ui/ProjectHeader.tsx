@@ -20,7 +20,18 @@ export function ProjectHeader({
         <Heading level={3} className="">
           {title}
         </Heading>
-        <Text>
+        <div className="block sm:hidden">
+          <Text> Megrendelő | {client} </Text>
+          <a
+            href={website}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline cursor-pointer"
+          >
+            weboldal
+          </a>
+        </div>
+         <Text className="hidden sm:block">
           Megrendelő | {client} |{" "}
           <a
             href={website}

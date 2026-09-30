@@ -2,6 +2,7 @@ import { Container } from "@/app/components/layout/Container";
 import { Section } from "@/app/components/layout/Section";
 import { ProjectHeader } from "@/app/components/ui/ProjectHeader";
 import { Text } from "@/app/components/ui/typography/Text";
+import { HeroImg, Img0102, Img03, Img04 } from "./components/CtrlAltCripImgs";
 import Image from "next/image";
 
 export default function CtrlAltCrip() {
@@ -29,14 +30,7 @@ export default function CtrlAltCrip() {
               </div>
             </div>
 
-            <Image
-              src="/projects/ctrlaltcrip/hero.jpg"
-              alt="CTRL+ALT+CRIP projekt fotó"
-              width={1410}
-              height={940}
-              priority
-              className="h-auto w-full"
-            />
+            <HeroImg />
 
             <div className="flex items-center justify-center">
               <div className="sm:max-w-sm">
@@ -49,23 +43,7 @@ export default function CtrlAltCrip() {
             </div>
 
             <div className="sm:grid sm:grid-cols-2 xl:gap-20 sm:gap-5 flex flex-col gap-10">
-              <Image
-                src="/projects/ctrlaltcrip/ctrlaltcrip-01.jpg"
-                alt="CTRL+ALT+CRIP projekt fotó"
-                width={659}
-                height={988}
-                priority
-                className="h-auto w-full"
-              />
-
-              <Image
-                src="/projects/ctrlaltcrip/ctrlaltcrip-02.jpg"
-                alt="CTRL+ALT+CRIP projekt fotó"
-                width={661}
-                height={991}
-                priority
-                className="h-auto w-full"
-              />
+              <Img0102 />
             </div>
 
             <div className="flex items-center justify-center">
@@ -85,14 +63,7 @@ export default function CtrlAltCrip() {
             </div>
 
             <div className="md:grid md:grid-cols-2 md:gap-20 flex flex-col gap-10">
-              <Image
-                src="/projects/ctrlaltcrip/ctrlaltcrip-03.jpg"
-                alt="CTRL+ALT+CRIP projekt fotó"
-                width={843}
-                height={1264}
-                priority
-                className="h-auto w-full"
-              />
+              <Img03 />
 
               <div className="flex justify-center items-center">
                 <div className="sm:max-w-xl md:max-w-full">
@@ -107,14 +78,7 @@ export default function CtrlAltCrip() {
               </div>
             </div>
 
-            <Image
-              src="/projects/ctrlaltcrip/ctrlaltcrip-04.jpg"
-              alt="CTRL+ALT+CRIP projekt fotó"
-              width={1405}
-              height={2107}
-              priority
-              className="h-auto w-full"
-            />
+            <Img04 />
 
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-center gap-10">
               <div className="md:max-w-9/11 md:grid md:grid-cols-2 flex flex-col sm:gap-10">
@@ -163,7 +127,8 @@ export default function CtrlAltCrip() {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-center mt-10">
+
+          <div className="flex items-center justify-center mt-10 gap-5">
             <div className="sm:max-w-lg flex flex-col gap-3">
               <Text>
                 „Ez különösen fontos volt egy olyan közös munkában, ahol a
@@ -183,6 +148,35 @@ export default function CtrlAltCrip() {
               <Text>
                 — Sosity Beáta, a CTRL+ALT+CRIP Magazin&nbsp;társalapítója
               </Text>
+              <div />
+
+              <div className="sm:max-w-lg flex flex-col gap-3">
+                <Text>
+                  „[…] Ami igazán erős Mariann munkájában, hogy nem csúszik bele
+                  a megszokott ábrázolási sémákba. Nem sajnál, nem „cukisít”, és
+                  nem is emel piedesztálra. Nem próbálja feloldani a
+                  feszültséget — inkább megtartja és láthatóvá teszi.
+                </Text>
+
+                <Text>
+                  <span className="font-bold">
+                    Nem jön zavarba attól, ha egy fogyatékos testet kell
+                    megmutatni. Képes nyíltan, őszintén és érdeklődéssel
+                    közelíteni olyan helyzetekhez, amelyektől sokan inkább
+                    elfordítanák a fejüket. Nem eltakar, hanem megmutat — de
+                    úgy, hogy közben nem veszi el az érintett személy méltóságát
+                    és autonómiáját.
+                  </span>
+                </Text>
+                <Text>
+                  Számomra ez a hozzáállás nemcsak szakmailag erős, hanem ritka
+                  is. Mariann munkája nem reprezentál, hanem jelenlétet hoz
+                  létre. Nagyon jó szívvel ajánlom.”
+                </Text>
+                <Text className="text-right">
+                  — Csángó Dániel, a CTRL+ALT+CRIP Magazin társalapítója
+                </Text>
+              </div>
             </div>
           </div>
         </Container>

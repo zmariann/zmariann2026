@@ -17,8 +17,11 @@ export function Footer() {
           </ButtonLink>
         </div>
 
-        <div className="flex flex-col items-center gap-3">
+        <div className="flex flex-col items-center gap-3 ">
+
+
           <Heading>Links</Heading>
+
 
           <nav
             aria-label="Social links"
@@ -47,6 +50,8 @@ export function Footer() {
               </li>
             </ul>
           </nav>
+
+
         </div>
 
         <Link href="/privacy">

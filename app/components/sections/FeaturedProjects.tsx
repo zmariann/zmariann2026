@@ -11,19 +11,13 @@ type FeaturedItemProps = {
 
 function FeaturedItem({ image, alt, title, children }: FeaturedItemProps) {
   return (
-    <div className="grid grid-cols-1 gap-3 lg:grid-cols-2 lg:gap-15">
-      <div className="flex items-center">
-        <img src={image} alt={alt} className="h-auto w-full" />
-      </div>
+    <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-15">
+      <img src={image} alt={alt} className="h-auto w-full" />
 
-      <div className="flex items-center">
-        <div>
-          <TextList>
-            <Heading>{title}</Heading>
-            {children}
-          </TextList>
-        </div>
-      </div>
+      <TextList>
+        <Heading>{title}</Heading>
+        {children}
+      </TextList>
     </div>
   );
 }
@@ -35,11 +29,7 @@ export function FeaturedProjects() {
         Megvalósult projektek
       </Heading>
 
-      <Text className="text-center">
-        Itt a munkáimat ismerheted meg, amik ugyanakkor inspirációként
-        szolgálhatnak a saját vállalkozásodhoz, elképzeléseidhez egy
-        együttműködés&nbsp;során.
-      </Text>
+      <Text className="text-center">Válogatás a legutóbbi munkáimból</Text>
 
       <div className="flex flex-col gap-25 mt-15">
         <FeaturedItem
@@ -47,40 +37,16 @@ export function FeaturedProjects() {
           alt="Exhibition installation at MOCA Taipei"
           title="Rövid formátumú videók a Ludwig Múzeum megbízásából, a MOCA Taipei számára"
         >
-          <Text>
-            Visszafogott, effektek nélküli, letisztult stílusú&nbsp;videók.
-          </Text>
-
-          <Text>
-            Ez a projekt jó példa arra, milyen mikor egy videónak a célja, nem a
-            viralitás, hanem hogy vonzó módon mutassa be a szolgáltatásodat az
-            érdeklődőidnek. Egy felvételből többféle verzió készülhet: például
-            reels, közösségi médiára és a landing oldaladra
-            egy&nbsp;bemutatkozó.
-          </Text>
-
-          <Text>
-            Nem csak kulturális intézmények szeretik ezt a típusú megoldást. A
-            szépségipar, építészirodák, oktatók és tanácsadók kedvelt
-            kommunikációs formája&nbsp;ez.
-          </Text>
+          <Text>Letisztult stílusú&nbsp;videók.</Text>
         </FeaturedItem>
 
         <FeaturedItem
           image="/imgs/landing/landing-02.jpg"
           alt="Artwork Documentation"
-          title="Műtárgy digitalizálás egy csapat részeként, kiválóan felszerelt stúdióban"
+          title="Műtárgy fotózás egy csapat részeként, felszerelt stúdióban, magyarország múzeumainak"
         >
           <Text>
             Egységes kinézetű, a tárgyat részletesen bemutató&nbsp;fotók.
-          </Text>
-
-          <Text>
-            A stúdióban történő tárgyfotózás akkor jöhet szóba, ha fizikai
-            terméked van. Sokféle stílusú világítás és hangulat közül
-            dönthetünk, hogy mi illik leginkább a termékedhez. A megszokott
-            webshopos fotók mellett jól jöhet néhány kreatívabb kép is
-            weboldalra,&nbsp;hirdetéshez.
           </Text>
         </FeaturedItem>
 
@@ -90,9 +56,9 @@ export function FeaturedProjects() {
           title="Dokumentarista fotók a CTRL+ALT+CRIP Magazin számára"
         >
           <Text weight="medium">
-            Ha van egy ügyed, amivel kiállsz emberek alapvető jogai mellett és
-            el tudnál képzelni egy együttműködést, akkor bátran írj olyan
-            esetben is, ha a büdzsé miatt esetleg kétségeid&nbsp;lennének.
+            Ha van egy ügyed, amivel kiállsz emberek jogai mellett és el tudnál
+            képzelni egy együttműködést, akkor bátran írj olyan esetben is, ha a
+            büdzsé miatt esetleg kétségeid&nbsp;lennének.
           </Text>
         </FeaturedItem>
       </div>

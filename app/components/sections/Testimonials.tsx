@@ -6,7 +6,7 @@ export function Testimonials() {
   return (
     <section className="flex justify-center items-center flex-col">
       <Heading level={1} color="carrot">
-        Így zajlott a közös munka
+        Így működünk együtt
       </Heading>
 
       <div className="flex flex-col gap-20 sm:gap-25 mt-15">
@@ -35,20 +35,9 @@ export function Testimonials() {
         <TextList>
           <Text>
             „Zászlós Mariann a CTRL+ALT+CRIP Magazin fotográfusaként dolgozott
-            velünk.
+            velünk. […]
           </Text>
-          <Text>
-            A vele való munka során az volt a legerősebb, hogy nem kívülről
-            közelít a helyzetekhez, hanem belép ezekbe. Nem ‘fotóz’, hanem jelen
-            van. Ez a jelen-lét és együtt-lét teszi lehetővé, hogy a képei ne
-            beállítottak vagy reprezentatívak legyenek, hanem valódi
-            viszonyokból épüljenek&nbsp;fel.
-          </Text>
-          <Text>
-            Portréiban és helyzetképeiben egyszerre van jelen az intimitás és a
-            pontosság: észreveszi a gyorsan tovatűnő gesztusokat, a testek
-            bizonytalan működését és a közeg, a környezet jelentőségét.
-          </Text>
+
           <Text>
             <span className="font-bold">
               Nem egyszerűen megmutat embereket, hanem teret ad annak, hogy
@@ -79,7 +68,9 @@ export function Testimonials() {
           <Text>
             „Mariannal lassan két éve dolgozunk együtt, a cég social media
             videót teljesen ő kezeli több platformon is, ezzel{" "}
-            <span className="font-bold">hatalmas terhet vett&nbsp;le&nbsp;rólunk.</span>{" "}
+            <span className="font-bold">
+              hatalmas terhet vett&nbsp;le&nbsp;rólunk.
+            </span>{" "}
             [...]”
           </Text>
           <Text className="text-right">
@@ -88,13 +79,7 @@ export function Testimonials() {
         </TextList>
         <TextList>
           <Text>
-            „[…] Ami igazán erős Mariann munkájában, hogy nem csúszik bele a
-            megszokott ábrázolási sémákba. Nem sajnál, nem „cukisít”, és nem is
-            emel piedesztálra. Nem próbálja feloldani a feszültséget — inkább
-            megtartja és láthatóvá teszi.
-          </Text>
-
-          <Text>
+            „[…]{" "}
             <span className="font-bold">
               Nem jön zavarba attól, ha egy fogyatékos testet kell megmutatni.
               Képes nyíltan, őszintén és érdeklődéssel közelíteni olyan

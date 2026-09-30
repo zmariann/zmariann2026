@@ -5,7 +5,7 @@ type TextListProps = {
 
 export function TextList({ children, className = "" }: TextListProps) {
   return (
-    <div className={`mt-6 flex flex-col gap-5 ${className}`}>
+    <div className={`flex flex-col gap-5 ${className}`}>
       {children}
     </div>
   );
