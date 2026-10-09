@@ -26,10 +26,8 @@ export function FeaturedProjects() {
   return (
     <section className="flex flex-col items-center justify-center">
       <Heading level={1} color="carrot">
-        Megvalósult projektek
+        Kiemelt projektek
       </Heading>
-
-      <Text className="text-center">Válogatás a legutóbbi munkáimból</Text>
 
       <div className="flex flex-col gap-25 mt-15">
         <FeaturedItem
@@ -56,9 +54,7 @@ export function FeaturedProjects() {
           title="Dokumentarista fotók a CTRL+ALT+CRIP Magazin számára"
         >
           <Text weight="medium">
-            Ha van egy ügyed, amivel kiállsz emberek jogai mellett és el tudnál
-            képzelni egy együttműködést, akkor bátran írj olyan esetben is, ha a
-            büdzsé miatt esetleg kétségeid&nbsp;lennének.
+            „Mariann [...] nem egyszerűen megmutat embereket, hanem teret ad annak, hogy saját ritmusukban és valóságukban jelenjenek meg, megmutassák magukat.”
           </Text>
         </FeaturedItem>
       </div>

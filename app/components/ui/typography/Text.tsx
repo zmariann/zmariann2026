@@ -20,8 +20,8 @@ export function Text({
     <p
       className={`
         text-lg
-        leading-relaxed
-        tracking-wider
+        leading-tight
+        tracking-wide
         ${variants[weight]}
         ${italic ? "italic" : ""}
         ${className}

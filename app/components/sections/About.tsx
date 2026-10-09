@@ -13,11 +13,6 @@ export function About() {
 
       <div className="flex justify-center">Portrait pic</div>
 
-      <Text>
-
-      </Text>
-
-      <div className="flex justify-center">video</div>
     </section>
   );
 }

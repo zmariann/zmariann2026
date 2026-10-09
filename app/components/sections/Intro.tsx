@@ -8,12 +8,9 @@ export function Intro() {
   return (
     <section className="flex flex-col sm:items-center justify-center">
       <Heading level={1} color="carrot" className="text-center">
-        Úgy tűnik éppen fotóst vagy videóst&nbsp;keresel,
+        Úgy tűnik éppen fotóst vagy videóst&nbsp;keresel.
       </Heading>
 
-      <Text className="text-center">
-        és az egyik munkám érdekes lehet&nbsp;számodra.
-      </Text>
       <Text className="text-center pb-6">Ezek miatt lehetsz&nbsp;itt:</Text>
 
       <IconTextList
@@ -26,7 +23,17 @@ export function Intro() {
                 strokeWidth={1.5}
               />
             ),
-            text: "Vállalkozó vagy és a branded számára van szükséged vizuális tartalomra.",
+            text: "Vállalkozó vagy és a szolgáltatásod vagy terméked bemutatásához van szükséged képekre, videókra.",
+          },
+                {
+            icon: (
+              <HeartHandshake
+                aria-hidden="true"
+                className="h-6 w-6"
+                strokeWidth={1.5}
+              />
+            ),
+            text: "Van egy ügyed, ami mellett elköteleződtél és most vizuális anyagokra van szükséged a projektedhez.",
           },
           {
             icon: (
@@ -36,18 +43,9 @@ export function Intro() {
                 strokeWidth={1.5}
               />
             ),
-            text: "A csapatodba keresel olyan tapasztalt szakembert, aki érti a kivitelezés teljes folyamatát.",
+            text: "Csapatodat bővítenéd egy tapasztalt kollegával.",
           },
-          {
-            icon: (
-              <HeartHandshake
-                aria-hidden="true"
-                className="h-6 w-6"
-                strokeWidth={1.5}
-              />
-            ),
-            text: "Társadalmi ügy támogatásához keresel partnert, aki vizuális tartalommal segíti a projekted megvalósítását.",
-          },
+    
         ]}
       />
       <TextList className="mt-6 sm:text-center">
@@ -56,9 +54,10 @@ export function Intro() {
           látásmódom valószínűleg jól jön&nbsp;számodra.
         </Text>
         <Text>
-          Lássuk, mit is jelent az előbbi mondat a&nbsp;gyakorlatban...
+          Lássuk, mit jelent ez a&nbsp;gyakorlatban...
         </Text>
       </TextList>
     </section>
   );
 }
+

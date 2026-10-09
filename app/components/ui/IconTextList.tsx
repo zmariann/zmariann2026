@@ -14,11 +14,12 @@ export function IconTextList({ items }: IconTextListProps) {
       {items.map((item, index) => (
         <div
           key={index}
-          className="flex items-start gap-4 border-b border-ink/20 py-6 border-gray-400"
+          className="flex items-start gap-4 border-ink/20 py-6 border-gray-400"
         >
-          <div className="mt-1 shrink-0 text-carrot">
-            {item.icon}
-          </div>
+
+    
+            <div className="mt-1 shrink-0 text-carrot">{item.icon}</div>
+
 
           <Text>{item.text}</Text>
         </div>

@@ -6,6 +6,7 @@ import { Container } from "./components/layout/Container";
 import { Testimonials } from "./components/sections/Testimonials";
 import { Intro } from "./components/sections/Intro";
 import { About } from "./components/sections/About";
+import { IntroVideo } from "./components/sections/IntroVideo";
 
 export default function Home() {
   return (
@@ -20,9 +21,11 @@ export default function Home() {
 
       <Collaborations />
 
-      <div className="flex h-screen items-center justify-center">
-        Intro video
-      </div>
+      <Section>
+        <Container>
+          <IntroVideo />
+        </Container>
+      </Section>
 
       <Section>
         <Container>

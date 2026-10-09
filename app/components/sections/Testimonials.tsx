@@ -13,14 +13,9 @@ export function Testimonials() {
         <TextList>
           <div>
             <Text>
-              „Szerintem nagyon jól néz ki, a hang is nagyon jó és a vágások is,{" "}
+              „[...] szuperül megoldotta, ami a kérés&nbsp;volt.{" "}
               <span className="font-bold">
                 {" "}
-                szuperül megoldotta, ami a kérés&nbsp;volt.
-              </span>
-            </Text>
-            <Text>
-              <span className="font-bold">
                 Köszönjük Mariannak a gyors, profi és kiváló&nbsp;munkáját.
               </span>
               ”
@@ -38,19 +33,6 @@ export function Testimonials() {
             velünk. […]
           </Text>
 
-          <Text>
-            <span className="font-bold">
-              Nem egyszerűen megmutat embereket, hanem teret ad annak, hogy
-              saját ritmusukban és valóságukban jelenjenek meg,
-              megmutassák&nbsp;magukat.
-            </span>
-          </Text>
-          <Text>
-            Ez különösen fontos volt egy olyan közös munkában, ahol a
-            fogyatékosság nem téma és nem hiány, hanem tudás, tapasztalat és
-            viszony. Mariann képei ezt nem magyarázzák, hanem hagyják
-            láthatóvá&nbsp;válni.
-          </Text>
           <Text>
             <span className="font-bold">
               Szeretnénk ezt a közös munkát a jövőben is folytatni, mert mind
@@ -81,7 +63,6 @@ export function Testimonials() {
           <Text>
             „[…]{" "}
             <span className="font-bold">
-              Nem jön zavarba attól, ha egy fogyatékos testet kell megmutatni.
               Képes nyíltan, őszintén és érdeklődéssel közelíteni olyan
               helyzetekhez, amelyektől sokan inkább elfordítanák a fejüket. Nem
               eltakar, hanem megmutat — de úgy, hogy közben nem veszi el az
