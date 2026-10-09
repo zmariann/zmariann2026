@@ -43,7 +43,7 @@ export function Intro() {
                 strokeWidth={1.5}
               />
             ),
-            text: "Csapatodat bővítenéd egy tapasztalt kollegával.",
+            text: "Csapatodat bővítenéd egy tapasztalt kollégával.",
           },
     
         ]}
