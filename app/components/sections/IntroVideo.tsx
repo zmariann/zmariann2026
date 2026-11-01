@@ -2,7 +2,7 @@ export function IntroVideo() {
   return (
     <section
       aria-label="Tech skills"
-      className="flex justify-center overflow-hidden"
+      className="flex justify-center overflow-hidden mt-15 sm:mt-0"
     >
       <video
         className="block w-full max-w-full object-contain lg:h-auto lg:max-h-screen lg:w-auto"

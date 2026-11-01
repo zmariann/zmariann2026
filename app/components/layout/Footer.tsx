@@ -5,28 +5,54 @@ import { Display } from "../ui/typography/Display";
 
 export function Footer() {
   return (
-    <footer className="border-carrot min-h-screen border-y-2 flex flex-col justify-between md:mx-20 py-20 mb-20">
-      <div className="flex items-stretch justify-between">
-        <Projects />
-        <Contact />
-      </div>
-      <div className="items-stretch justify-between flex">
+    <>
+      <nav className="md:mx-12 mx-5 pb-2 flex justify-between">
         {" "}
-        <Links />
-        <PortfolioInfo />
-      </div>
-    </footer>
+        <Text>
+          <Link href="/">Főoldal</Link>
+        </Text>
+        <Text>
+          <Link href="/">Vissza</Link>
+        </Text>
+      </nav>
+      {/* Desktop view */}
+      <footer className="border-carrot min-h-screen border-y-2 md:flex flex-col justify-between md:mx-12 py-20 mb-20 hidden">
+        <div className="flex items-stretch justify-between">
+          <Projects />
+          <Contact />
+        </div>
+        <div className="items-stretch justify-between flex">
+          {" "}
+          <Links />
+          <PortfolioInfo />
+        </div>
+      </footer>
+
+      {/* Mobile view */}
+      <footer className="border-carrot border-y-2 md:hidden flex flex-col mb-20 ">
+        <div className="flex flex-col gap-15 mx-5 py-15">
+          {" "}
+          <Contact />
+          <Projects />
+          <Links />
+        </div>
+        <div className="flex justify-center mb-5">
+          {" "}
+          <PortfolioInfo />
+        </div>
+      </footer>
+    </>
   );
 }
 
 export function Contact() {
   return (
-    <div>
-      <Heading level={1} color="carrot" className="text-right">
+    <div className="md:text-right">
+      <Heading level={1} color="carrot">
         Kontakt
       </Heading>
-      <Text className="text-right">contact@zmariann.com</Text>
-      <Text className="text-right">+3630</Text>
+      <Text>contact@zmariann.com</Text>
+      <Text>+3630</Text>
     </div>
   );
 }
