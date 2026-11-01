@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <section className="flex min-h-screen flex-col lg:flex-row">
       <div className="flex min-h-screen flex-col items-center justify-center py-5 px-3 text-carrot lg:min-h-0 lg:flex-1">
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 mb-20 lg:mb-0">
           <Display>Zászlós Mariann</Display>
 
           <ButtonLink href="#contact" variant="carrot">
