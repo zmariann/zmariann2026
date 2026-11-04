@@ -17,7 +17,7 @@ export function Intro() {
           szükséged képekre,&nbsp;videókra.
         </Text>
         <Text>
-          Elköteleződtél egy fontos ügy mellett és most vizuális anyagokra van szükséged a &nbsp;projektedhez.
+          Elköteleződtél egy fontos ügy mellett és most vizuális anyagokra van szükséged a&nbsp;projektedhez.
         </Text>
         <Text>Csapatodat bővítenéd egy tapasztalt&nbsp;kollégával.</Text>
       </TextList>
