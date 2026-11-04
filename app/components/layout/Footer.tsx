@@ -15,6 +15,7 @@ export function Footer() {
           <Link href="/">Vissza</Link>
         </Text>
       </nav>
+
       {/* Desktop view */}
       <footer className="border-carrot min-h-screen border-y-2 md:flex flex-col justify-between md:mx-12 py-20 mb-20 hidden">
         <div className="flex items-stretch justify-between">
@@ -29,16 +30,16 @@ export function Footer() {
       </footer>
 
       {/* Mobile view */}
-      <footer className="border-carrot border-y-2 md:hidden flex flex-col mb-20 ">
-        <div className="flex flex-col gap-15 mx-5 py-15">
+      <footer className="md:hidden flex flex-col mb-20 ">
+        <div className="flex flex-col gap-15 mx-5 py-15 border-carrot border-y-2">
           {" "}
           <Contact />
           <Projects />
           <Links />
-        </div>
-        <div className="flex justify-center mb-5">
-          {" "}
-          <PortfolioInfo />
+          <div className="flex justify-center">
+            {" "}
+            <PortfolioInfo />
+          </div>
         </div>
       </footer>
     </>

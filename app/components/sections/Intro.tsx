@@ -1,8 +1,6 @@
 import { TextList } from "../ui/TextList";
 import { Heading } from "../ui/typography/Heading";
 import { Text } from "../ui/typography/Text";
-import { BriefcaseBusiness, UsersRound, HeartHandshake } from "lucide-react";
-import { IconTextList } from "@/app/components/ui/IconTextList";
 
 export function Intro() {
   return (
@@ -13,51 +11,24 @@ export function Intro() {
 
       <Text className="text-center pb-6">Ezek miatt lehetsz&nbsp;itt:</Text>
 
-      <IconTextList
-        items={[
-          {
-            icon: (
-              <BriefcaseBusiness
-                aria-hidden="true"
-                className="h-6 w-6"
-                strokeWidth={1.5}
-              />
-            ),
-            text: "Vállalkozó vagy és a szolgáltatásod vagy terméked bemutatásához van szükséged képekre, videókra.",
-          },
-                {
-            icon: (
-              <HeartHandshake
-                aria-hidden="true"
-                className="h-6 w-6"
-                strokeWidth={1.5}
-              />
-            ),
-            text: "Van egy ügyed, ami mellett elköteleződtél és most vizuális anyagokra van szükséged a projektedhez.",
-          },
-          {
-            icon: (
-              <UsersRound
-                aria-hidden="true"
-                className="h-6 w-6"
-                strokeWidth={1.5}
-              />
-            ),
-            text: "Csapatodat bővítenéd egy tapasztalt kollégával.",
-          },
-    
-        ]}
-      />
+      <TextList>
+        <Text>
+          Vállalkozó vagy és a szolgáltatásod vagy terméked bemutatásához van
+          szükséged képekre,&nbsp;videókra.
+        </Text>
+        <Text>
+          Elköteleződtél egy fontos ügy mellett és most vizuális anyagokra van szükséged a &nbsp;projektedhez.
+        </Text>
+        <Text>Csapatodat bővítenéd egy tapasztalt&nbsp;kollégával.</Text>
+      </TextList>
+
       <TextList className="mt-6 sm:text-center">
         <Text>
           Bárki is vagy a kulturális területen szerzett tapasztalatom,
           látásmódom valószínűleg jól jön&nbsp;számodra.
         </Text>
-        <Text>
-          Lássuk, mit jelent ez a&nbsp;gyakorlatban...
-        </Text>
+        <Text>Lássuk, mit jelent ez a&nbsp;gyakorlatban...</Text>
       </TextList>
     </section>
   );
 }
-
