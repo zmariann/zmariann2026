@@ -13,7 +13,7 @@ export function HeroVideo() {
         preload="auto"
         aria-hidden="true"
       >
-        <source src="/videos/heroVideo.webm" type="video/webm" />
+        <source src="/videos/heroVideo.mp4" type="video/mp4" />
       </video>
     </section>
   );

@@ -16,17 +16,21 @@ export function About() {
             <TextList>
               {" "}
               <Text>
-                Sok alkotóhoz hasonlóan engem is az foglalkoztat, hogy segítsek
-                megtalálni neked azt a bizonyos egyedi hangot, a sablon
-                megoldásokon túl, amit magadénak&nbsp;érzel.
+                Sok alkotóhoz hasonlóan engem is az foglalkoztat, hogy hogyan
+                tudok úgy segíteni, hogy a sablon megoldásokon túl megtaláld azt
+                a bizonyos egyedi hangot, amit magadénak&nbsp;érzel.
               </Text>
               <Text>
-                Szórakoztató tartalmak helyett fontosabb számomra a tudásátadás.
-                A mindenki számára mást jelentő „szépség” helyett pedig harmóniára&nbsp;törekszem:
+                Passzol a szemléleted az enyémhez, ha a szórakoztató tartalmak
+                helyett számodra is fontosabb a tudásátadás. Valamint, ha nem
+                csak úgy gyorsba’ egy végrehajtót keresel, hanem egy veled
+                együtt gondolkodó kivitelezőt, akit érdekel, hogy miben vagy
+                éppen és merre&nbsp;tartasz.
               </Text>
               <Text>
-                A látvány egésze, a vizuális elemek, a projekted tartalma és a
-                felhasználás módja, célja összhangban kell&nbsp;legyen.
+                Szépség helyett harmóniára törekszem: a látvány egésze, a
+                vizuális elemek, a projekted tartalma és a felhasználás módja,
+                célja összhangban kell&nbsp;legyen.
               </Text>
               <Text>
                 Olyan tervezői folyamatokat valósítok meg, ahol a vizuális

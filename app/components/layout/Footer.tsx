@@ -1,23 +1,21 @@
-import Link from "next/link";
 import { Text } from "../ui/typography/Text";
 import { Heading } from "../ui/typography/Heading";
 import { Display } from "../ui/typography/Display";
+import { ExternalLink } from "../ui/navigation/ExternalLink";
+import { InternalLink } from "../ui/navigation/InternalLink";
+import BackButton from "../ui/navigation/BackButton";
+import { CopyEmail } from "../ui/CopyEmail";
 
 export function Footer() {
   return (
     <>
       <nav className="md:mx-12 mx-5 pb-2 flex justify-between">
-        {" "}
-        <Text>
-          <Link href="/">Főoldal</Link>
-        </Text>
-        <Text>
-          <Link href="/">Vissza</Link>
-        </Text>
+        <InternalLink href="/">Főoldal</InternalLink>
+        <BackButton />
       </nav>
 
       {/* Desktop view */}
-      <footer className="border-carrot min-h-screen border-y-2 md:flex flex-col justify-between md:mx-12 py-20 mb-20 hidden">
+      <footer className="border-carrot border-y-2 md:flex md:gap-20 flex-col justify-between md:mx-12 py-10 mb-20 hidden">
         <div className="flex items-stretch justify-between">
           <Projects />
           <Contact />
@@ -52,7 +50,7 @@ export function Contact() {
       <Heading level={1} color="carrot">
         Kontakt
       </Heading>
-      <Text>contact@zmariann.com</Text>
+      <CopyEmail />
       <Text>+3630</Text>
     </div>
   );
@@ -65,9 +63,14 @@ export function Projects() {
         Projektek
       </Heading>
       <nav>
-        <Text>
-          <Link href="/projects/ctrlaltcrip">Ctrl+Alt+Crip</Link>
-        </Text>
+        <InternalLink href="/projects/ctrlaltcrip">CTRL+ALT+CRIP</InternalLink>
+        <InternalLink href="/projects/ctrlaltcrip">MOCA Taipei</InternalLink>
+        <InternalLink href="/projects/ctrlaltcrip">
+          Portfólió | Tárgyfotók
+        </InternalLink>
+        <InternalLink href="/projects/ctrlaltcrip">
+          Portfólió | Rendezvényfotók
+        </InternalLink>
       </nav>
     </div>
   );
@@ -79,22 +82,15 @@ export function Links() {
       <Heading level={1} color="carrot">
         Linkek
       </Heading>
-      <Text>
-        {" "}
-        <a href="https://linkedin.com/in/zmariann">LinkedIn</a>{" "}
-      </Text>
-
-      <Text>
-        {" "}
-        <a href="https://instagram.com/zamarka.studio">Instagram</a>
-      </Text>
-
-      <Text>
-        {" "}
-        <a href="https://www.behance.net/gallery/227752169/Product-Photography-Portfolio">
-          Behance
-        </a>
-      </Text>
+      <ExternalLink href="https://linkedin.com/in/zmariann">
+        LinkedIn
+      </ExternalLink>
+      <ExternalLink href="https://instagram.com/zamarka.studio">
+        Instagram
+      </ExternalLink>
+      <ExternalLink href="https://www.behance.net/gallery/227752169/Product-Photography-Portfolio">
+        Behance
+      </ExternalLink>
     </div>
   );
 }

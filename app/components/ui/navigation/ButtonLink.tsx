@@ -3,6 +3,7 @@
 import Link, { type LinkProps } from "next/link";
 import type { ReactNode } from "react";
 import { ArrowRight } from "lucide-react";
+import { Text } from "../typography/Text";
 
 type ButtonLinkProps = LinkProps & {
   children: ReactNode;
@@ -11,7 +12,7 @@ type ButtonLinkProps = LinkProps & {
 };
 
 const variants = {
-  default: "bg-graphite text-platinum",
+  default: "border-graphite border-1 text-graphite",
   carrot: "bg-carrot text-graphite",
   minimalist: "bg-accent text-ink",
 };
@@ -30,24 +31,17 @@ export function ButtonLink({
         w-full
         min-w-44
         items-center
-
         px-6
         py-3
-
-        text-m
-        font-semibold
-        tracking-wider
-
-        active:opacity-90
 
        ${variants[variant]}
        ${className}
       `}
       {...props}
     >
-      <span className="flex-1 text-left">{children}</span>
+      <Text className="flex-1 text-left pt-0.5">{children}</Text>
       <ArrowRight
-        strokeWidth={1.5}
+        strokeWidth={1.3}
         className="
           h-6
           w-6

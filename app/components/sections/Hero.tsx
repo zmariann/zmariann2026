@@ -1,5 +1,5 @@
 import { ArrowDown } from "lucide-react";
-import { ButtonLink } from "../ui/typography/ButtonLink";
+import { ButtonLink } from "../ui/navigation/ButtonLink";
 import { Display } from "../ui/typography/Display";
 import { HeroVideo } from "./HeroVideo";
 
