@@ -59,10 +59,10 @@ export function Contact() {
 export function Projects() {
   return (
     <div>
-      <Heading level={1} color="carrot">
+      <Heading level={1} color="carrot" className="mb-0">
         Projektek
       </Heading>
-      <nav>
+      <nav className="flex flex-col gap-3">
         <InternalLink href="/projects/ctrlaltcrip">CTRL+ALT+CRIP</InternalLink>
         <InternalLink href="/projects/ctrlaltcrip">MOCA Taipei</InternalLink>
         <InternalLink href="/projects/ctrlaltcrip">

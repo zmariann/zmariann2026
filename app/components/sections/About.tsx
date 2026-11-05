@@ -16,21 +16,15 @@ export function About() {
             <TextList>
               {" "}
               <Text>
-                Sok alkotóhoz hasonlóan engem is az foglalkoztat, hogy hogyan
-                tudok úgy segíteni, hogy a sablon megoldásokon túl megtaláld azt
-                a bizonyos egyedi hangot, amit magadénak&nbsp;érzel.
+                Foglalkoztat, hogy hogyan tudlak úgy segíteni, hogy a sablon
+                megoldásokon túl megtaláld azt a bizonyos egyedi hangot, amit
+                magadénak&nbsp;érzel.
               </Text>
               <Text>
-                Passzol a szemléleted az enyémhez, ha a szórakoztató tartalmak
-                helyett számodra is fontosabb a tudásátadás. Valamint, ha nem
-                csak úgy gyorsba’ egy végrehajtót keresel, hanem egy veled
-                együtt gondolkodó kivitelezőt, akit érdekel, hogy miben vagy
-                éppen és merre&nbsp;tartasz.
-              </Text>
-              <Text>
-                Szépség helyett harmóniára törekszem: a látvány egésze, a
-                vizuális elemek, a projekted tartalma és a felhasználás módja,
-                célja összhangban kell&nbsp;legyen.
+                Passzolunk, ha a szórakoztató tartalmak helyett számodra is
+                fontosabb a tudásátadás. Valamint, ha nem csak úgy gyorsba’ egy
+                végrehajtót keresel, hanem egy veled együtt gondolkodó partnert,
+                akit érdekel, hogy miben vagy éppen és merre&nbsp;tartasz.
               </Text>
               <Text>
                 Olyan tervezői folyamatokat valósítok meg, ahol a vizuális
@@ -38,6 +32,11 @@ export function About() {
                 rendszer részei: pl. meglévő arculathoz illeszkednek, landing
                 oldaladat egészítik ki, közösségi média felületeid
                 kommunikációját&nbsp;támogatják…
+              </Text>
+              <Text>
+                A látvány egésze, a vizuális elemek, a
+                projekted tartalma és a felhasználás módja, célja összhangban
+                kell&nbsp;legyen.
               </Text>
               <Text>
                 Mivel személyesen a te projektedhez keressük a megoldást, ezért
