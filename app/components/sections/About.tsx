@@ -10,22 +10,26 @@ export function About() {
         <div className="flex justify-center items-center">
           <div className="sm:max-w-xl md:max-w-full">
             <Heading level={2} className="mb-8">
-              Kedves Vállalkozó!
+              Kedves Érdeklődő!
             </Heading>
 
             <TextList>
               {" "}
+              <Text>Passzolunk, ha:</Text>
               <Text>
-                Foglalkoztat, hogy hogyan tudlak úgy segíteni, hogy a sablon
-                megoldásokon túl megtaláld azt a bizonyos egyedi hangot, amit
-                magadénak&nbsp;érzel.
+                - meglévő marketing stratégiád mellé szeretnél
+                képeket,&nbsp;videókat.
               </Text>
               <Text>
-                Passzolunk, ha a szórakoztató tartalmak helyett számodra is
-                fontosabb a tudásátadás. Valamint, ha nem csak úgy gyorsba’ egy
-                végrehajtót keresel, hanem egy veled együtt gondolkodó partnert,
-                akit érdekel, hogy miben vagy éppen és merre&nbsp;tartasz.
+                - egy veled együtt gondolkodó partnert keresel hosszútávra, akit
+                érdekel, hogy miben vagy éppen és merre&nbsp;tartasz.
               </Text>
+              <Text>Kiről is van szó? Egy megrendelőm valahogy így fogalmazott:</Text>
+              <Text>
+                Tökre rugalmas, az ötleteidet, kéréseidet figyelembe vevő, saját
+                elképzelésekkel rendelkező, de soha nem tukmáló, felügyeletet nem igénylő&nbsp;kollégád.
+              </Text>
+              <Text>Így gondolkodom:</Text>
               <Text>
                 Olyan tervezői folyamatokat valósítok meg, ahol a vizuális
                 elemek sosem csak úgy önmagukban vannak, hanem egy nagyobb
@@ -34,22 +38,15 @@ export function About() {
                 kommunikációját&nbsp;támogatják…
               </Text>
               <Text>
-                A látvány egésze, a vizuális elemek, a
-                projekted tartalma és a felhasználás módja, célja összhangban
-                kell&nbsp;legyen.
+                A látvány egésze, a vizuális elemek, a projekted tartalma és a
+                felhasználás módja, célja összhangban kell&nbsp;legyen.
               </Text>
-              <Text>
-                Mivel személyesen a te projektedhez keressük a megoldást, ezért
-                egyéni konzultáció keretében tudunk&nbsp;egyeztetni.
-              </Text>
-              <Text>Kérdésed esetén bátran telefonon is&nbsp;hívhatsz:</Text>
-              <Text>+3630</Text>
             </TextList>
           </div>
         </div>
         <Image
           src="/imgs/landing/landing-04.jpg"
-          alt="CTRL+ALT+CRIP projekt fotó"
+          alt="portrait"
           width={720}
           height={1080}
           priority

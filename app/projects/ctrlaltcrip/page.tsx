@@ -4,6 +4,7 @@ import { ProjectHeader } from "@/app/components/ui/ProjectHeader";
 import { Text } from "@/app/components/ui/typography/Text";
 import { HeroImg, Img0102, Img03, Img04 } from "./components/CtrlAltCripImgs";
 import Image from "next/image";
+import { TextList } from "@/app/components/ui/TextList";
 
 export default function CtrlAltCrip() {
   return (
@@ -128,7 +129,8 @@ export default function CtrlAltCrip() {
             </div>
           </div>
 
-          <div className="flex items-center justify-center mt-10 gap-5">
+          <div className="flex flex-col items-center mt-20 gap-10">
+
             <div className="sm:max-w-lg flex flex-col gap-3">
               <Text>
                 „Ez különösen fontos volt egy olyan közös munkában, ahol a
@@ -149,34 +151,34 @@ export default function CtrlAltCrip() {
                 — Sosity Beáta, a CTRL+ALT+CRIP Magazin&nbsp;társalapítója
               </Text>
               <div />
+            </div>
 
-              <div className="sm:max-w-lg flex flex-col gap-3">
-                <Text>
-                  „[…] Ami igazán erős Mariann munkájában, hogy nem csúszik bele
-                  a megszokott ábrázolási sémákba. Nem sajnál, nem „cukisít”, és
-                  nem is emel piedesztálra. Nem próbálja feloldani a
-                  feszültséget — inkább megtartja és láthatóvá teszi.
-                </Text>
-
-                <Text>
-                  <span className="font-bold">
-                    Nem jön zavarba attól, ha egy fogyatékos testet kell
-                    megmutatni. Képes nyíltan, őszintén és érdeklődéssel
-                    közelíteni olyan helyzetekhez, amelyektől sokan inkább
-                    elfordítanák a fejüket. Nem eltakar, hanem megmutat — de
-                    úgy, hogy közben nem veszi el az érintett személy méltóságát
-                    és autonómiáját.
-                  </span>
-                </Text>
-                <Text>
-                  Számomra ez a hozzáállás nemcsak szakmailag erős, hanem ritka
-                  is. Mariann munkája nem reprezentál, hanem jelenlétet hoz
-                  létre. Nagyon jó szívvel ajánlom.”
-                </Text>
-                <Text className="text-right">
-                  — Csángó Dániel, a CTRL+ALT+CRIP Magazin társalapítója
-                </Text>
-              </div>
+            <div className="sm:max-w-lg flex flex-col gap-3">
+              {" "}
+              <Text>
+                „[…] Ami igazán erős Mariann munkájában, hogy nem csúszik bele a
+                megszokott ábrázolási sémákba. Nem sajnál, nem „cukisít”, és nem
+                is emel piedesztálra. Nem próbálja feloldani a feszültséget —
+                inkább megtartja és láthatóvá&nbsp;teszi.
+              </Text>
+              <Text>
+                <span className="font-bold">
+                  Nem jön zavarba attól, ha egy fogyatékos testet kell
+                  megmutatni. Képes nyíltan, őszintén és érdeklődéssel
+                  közelíteni olyan helyzetekhez, amelyektől sokan inkább
+                  elfordítanák a fejüket. Nem eltakar, hanem megmutat — de úgy,
+                  hogy közben nem veszi el az érintett személy méltóságát
+                  és&nbsp;autonómiáját.
+                </span>
+              </Text>
+              <Text>
+                Számomra ez a hozzáállás nemcsak szakmailag erős, hanem ritka
+                is. Mariann munkája nem reprezentál, hanem jelenlétet hoz létre.
+                Nagyon jó szívvel&nbsp;ajánlom.”
+              </Text>
+              <Text>
+                — Csángó Dániel, a CTRL+ALT+CRIP Magazin&nbsp;társalapítója
+              </Text>
             </div>
           </div>
         </Container>

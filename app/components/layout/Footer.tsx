@@ -59,7 +59,7 @@ export function Contact() {
 export function Projects() {
   return (
     <div>
-      <Heading level={1} color="carrot" className="mb-0">
+      <Heading level={1} color="carrot" className="mb-4">
         Projektek
       </Heading>
       <nav className="flex flex-col gap-3">
