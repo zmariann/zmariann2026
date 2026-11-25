@@ -4,7 +4,6 @@ import { ProjectHeader } from "@/app/components/ui/ProjectHeader";
 import { Text } from "@/app/components/ui/typography/Text";
 import { HeroImg, Img0102, Img03, Img04 } from "./components/CtrlAltCripImgs";
 import Image from "next/image";
-import { TextList } from "@/app/components/ui/TextList";
 
 export default function CtrlAltCrip() {
   return (
@@ -16,6 +15,7 @@ export default function CtrlAltCrip() {
               title="Rend/ellenes"
               client="CTRL+ALT+CRIP"
               category="Dokumentarista fotósorozat"
+              website="https://www.ctrlaltcrip.com/"
             />
 
             <div className="flex items-center justify-center">

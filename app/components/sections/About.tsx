@@ -9,22 +9,8 @@ export function About() {
       <div className="md:grid md:grid-cols-2 md:gap-20 flex flex-col gap-10">
         <div className="flex justify-center items-center">
           <div className="sm:max-w-xl md:max-w-full">
-            <Heading level={2} className="mb-8">
-              Kedves Érdeklődő!
-            </Heading>
-
             <TextList>
-              {" "}
-              <Text>Passzolunk, ha:</Text>
-              <Text>
-                - meglévő marketing stratégiád mellé szeretnél
-                képeket,&nbsp;videókat.
-              </Text>
-              <Text>
-                - egy veled együtt gondolkodó partnert keresel hosszútávra, akit
-                érdekel, hogy miben vagy éppen és merre&nbsp;tartasz.
-              </Text>
-              <Text>Kiről is van szó? Egy megrendelőm valahogy így fogalmazott:</Text>
+              <Text>Egy megrendelőm szerint valószínűleg ilyennek ismersz majd&nbsp;meg:</Text>
               <Text>
                 Tökre rugalmas, az ötleteidet, kéréseidet figyelembe vevő, saját
                 elképzelésekkel rendelkező, de soha nem tukmáló, felügyeletet nem igénylő&nbsp;kollégád.

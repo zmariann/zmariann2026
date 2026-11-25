@@ -1,3 +1,4 @@
+import { ExternalLink } from "./navigation/ExternalLink";
 import { Heading } from "./typography/Heading";
 import { Text } from "./typography/Text";
 
@@ -17,32 +18,11 @@ export function ProjectHeader({
   return (
     <section className="flex flex-col gap-7">
       <div>
-        <Heading level={3} className="">
-          {title}
-        </Heading>
-        <div className="block sm:hidden">
-          <Text> Megrendelő | {client} </Text>
-          <a
-            href={website}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline cursor-pointer"
-          >
-            weboldal
-          </a>
-        </div>
-         <Text className="hidden sm:block">
-          Megrendelő | {client} |{" "}
-          <a
-            href={website}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline cursor-pointer"
-          >
-            weboldal
-          </a>
-        </Text>
+        <Heading level={3}>{title}</Heading>
+
+        <Text>Megrendelő | {client}</Text>
       </div>
+      {website && <ExternalLink href={website}>weboldal</ExternalLink>}
 
       <Text>{category}</Text>
     </section>

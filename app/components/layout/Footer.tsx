@@ -64,7 +64,7 @@ export function Projects() {
       </Heading>
       <nav className="flex flex-col gap-3">
         <InternalLink href="/projects/ctrlaltcrip">CTRL+ALT+CRIP</InternalLink>
-        <InternalLink href="/projects/ctrlaltcrip">MOCA Taipei</InternalLink>
+        <InternalLink href="/projects/moca">MOCA Taipei</InternalLink>
         <InternalLink href="/projects/ctrlaltcrip">
           Portfólió | Tárgyfotók
         </InternalLink>
