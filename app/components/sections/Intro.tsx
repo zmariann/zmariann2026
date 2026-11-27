@@ -29,9 +29,9 @@ export function Intro() {
         </TextList>
       </div>
 
-      <div className="sm:min-h-screen flex sm:items-center justify-center flex-col">
+      <div className="sm:min-h-screen flex sm:items-center justify-center flex-col pt-20 sm:pt-0">
         {" "}
-        <Heading level={1} color="carrot" className="text-center">
+        <Heading level={1} color="carrot" className="text-center pb-5">
           Passzolunk, ha:
         </Heading>
         <TextList className="sm:text-center">

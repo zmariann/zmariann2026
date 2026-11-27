@@ -17,10 +17,32 @@ export function CopyEmail() {
   return (
     <button
       onClick={copyEmail}
-      className="cursor-pointer"
+      className="w-fit self-start cursor-pointer"
       aria-label="Copy email address"
     >
-      <Text> {copied ? "copied / kimásolva" : email}</Text>
+      <Text> {copied ? "kimásolva" : email}</Text>
+    </button>
+  );
+}
+
+export function CopyTelnum() {
+  const [copied, setCopied] = useState(false);
+  const telnum = "+36304347211";
+
+  const CopyTelnum = async () => {
+    await navigator.clipboard.writeText(telnum);
+    setCopied(true);
+
+    setTimeout(() => setCopied(false), 2000);
+  };
+
+  return (
+    <button
+      onClick={CopyTelnum}
+      className="w-fit self-start cursor-pointer"
+      aria-label="Copy email address"
+    >
+      <Text> {copied ? "kimásolva" : telnum}</Text>
     </button>
   );
 }

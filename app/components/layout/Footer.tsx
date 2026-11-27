@@ -4,7 +4,7 @@ import { Display } from "../ui/typography/Display";
 import { ExternalLink } from "../ui/navigation/ExternalLink";
 import { InternalLink } from "../ui/navigation/InternalLink";
 import BackButton from "../ui/navigation/BackButton";
-import { CopyEmail } from "../ui/CopyEmail";
+import { CopyEmail, CopyTelnum } from "../ui/CopyEmail";
 
 export function Footer() {
   return (
@@ -28,7 +28,7 @@ export function Footer() {
       </footer>
 
       {/* Mobile view */}
-      <footer className="md:hidden flex flex-col mb-20 ">
+      <footer className="md:hidden flex flex-col mb-5">
         <div className="flex flex-col gap-15 mx-5 py-15 border-carrot border-y-2">
           {" "}
           <Contact />
@@ -46,12 +46,14 @@ export function Footer() {
 
 export function Contact() {
   return (
-    <div className="md:text-right">
-      <Heading level={1} color="carrot">
+    <div className="flex flex-col gap-1">
+      <Heading level={1} color="carrot" className="md:text-right">
         Kontakt
       </Heading>
-      <CopyEmail />
-      <Text>+3630</Text>
+        {" "}
+        <CopyEmail />
+        <CopyTelnum />
+    
     </div>
   );
 }
