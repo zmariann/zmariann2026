@@ -52,7 +52,7 @@ export function Contact() {
       </Heading>
         {" "}
         <CopyEmail />
-        <CopyTelNum />
+        <Text>+36304347211</Text>
     
     </div>
   );
