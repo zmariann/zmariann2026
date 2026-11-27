@@ -4,7 +4,7 @@ import { Display } from "../ui/typography/Display";
 import { ExternalLink } from "../ui/navigation/ExternalLink";
 import { InternalLink } from "../ui/navigation/InternalLink";
 import BackButton from "../ui/navigation/BackButton";
-import { CopyEmail, CopyTelNum, CopyTelnum } from "../ui/CopyContact";
+import { CopyEmail } from "../ui/CopyContact";
 
 export function Footer() {
   return (
