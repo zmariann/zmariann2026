@@ -46,7 +46,7 @@ export function Footer() {
 
 export function Contact() {
   return (
-    <div className="flex flex-col gap-1">
+    <div className="flex flex-col gap-3">
       <Heading level={1} color="carrot" className="md:text-right">
         Kontakt
       </Heading>
