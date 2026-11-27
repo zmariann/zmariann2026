@@ -4,7 +4,7 @@ import { Display } from "../ui/typography/Display";
 import { ExternalLink } from "../ui/navigation/ExternalLink";
 import { InternalLink } from "../ui/navigation/InternalLink";
 import BackButton from "../ui/navigation/BackButton";
-import { CopyEmail, CopyTelnum } from "../ui/CopyEmail";
+import { CopyEmail, CopyTelNum, CopyTelnum } from "../ui/CopyContact";
 
 export function Footer() {
   return (
@@ -52,7 +52,7 @@ export function Contact() {
       </Heading>
         {" "}
         <CopyEmail />
-        <CopyTelnum />
+        <CopyTelNum />
     
     </div>
   );
