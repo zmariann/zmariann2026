@@ -24,25 +24,3 @@ export function CopyEmail() {
     </button>
   );
 }
-
-export function CopyTelNum() {
-  const [copied, setCopied] = useState(false);
-  const tel = "+36304347211";
-
-  const CopyTelNum = async () => {
-    await navigator.clipboard.writeText(tel);
-    setCopied(true);
-
-    setTimeout(() => setCopied(false), 2000);
-  };
-
-  return (
-    <button
-      onClick={CopyTelNum}
-      className="w-fit self-start cursor-pointer"
-      aria-label="Copy email address"
-    >
-      <Text> {copied ? "kimásolva" : tel}</Text>
-    </button>
-  );
-}
